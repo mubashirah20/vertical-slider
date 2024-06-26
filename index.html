@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=
+    =" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vertical Slider</title>
+</head>
+<body>
+    <div class="slider-container">
+        <!-- div with text -->
+        <div class="left-slide">
+            <div style="background-color: #ec55a8">
+                <h1>Nature Flower</h1>
+                <p>All in pink</p>
+            </div>
+            <div style="background-color: #2A86BA">
+                <h1>Bluuue Sky</h1>
+                <p>With it's mountains</p>
+            </div>
+            <div style="background-color: #252E33">
+                <h1>Lonely Castle</h1>
+                <p>In the wilderness</p>
+            </div>
+            <div style="background-color: #FFB866">
+                <h1>Flying Eagle</h1>
+                <p>In the sunset</p>
+            </div>
+        </div>
+
+        <!-- div with images -->
+        <div class="right-slide">
+            <div style="background-image: url(images/eagle-7496111_1280.jpg);"></div>
+            <div style="background-image: url(images/castle-1483681_1280.jpg);"></div>
+            <div style="background-image: url(images/mountains-4292912_1280.jpg);"></div>
+            <div style="background-image: url(images/dahlia-1627145_1280.jpg);"></div>
+        </div>
+
+        <div class="action-buttons">
+            <button class="button down-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="button up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
